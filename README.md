@@ -5,7 +5,7 @@ This project uses two files on disk to simulate an email templating engine:
 - `Layout.hbs` - a layout file containing common markup
 - `FileReady.hbs` - a sample file that references the layout, and contains specific messaging to let a user know that their file is ready to download.
 
-The generated HTML looks like it properly uses the model, except it doesn't appear to work in `Layout.hbs`.
+The generated HTML for `FileReady.hbs` looks like it properly uses the model, but it doesn't appear to work in `Layout.hbs`.
 
 `Layout.hbs` contains the following markup:
 
